@@ -15,11 +15,6 @@ html {
     font-family:Arial, Helvetica, sans-serif;
 }
 /* Responsive */
-.grid {
-    width: 1000px;
-    max-width: 100%;
-    margin: 0 auto;
-}
 
 .grid__full-width {
     width: 100%;
@@ -76,6 +71,16 @@ html {
     to{
         opacity: 1;
         transform: scale(1);
+    }
+}
+@keyframes RaiseY{
+    from {
+        opacity: 0.5;
+        transform: scaleY(0);
+    }
+    to{
+        opacity: 1;
+        transform: scaleY(1);
     }
 }
 .checkout-sum__price.checkout-sum__price--active span{
