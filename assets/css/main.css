@@ -378,9 +378,6 @@
 }
 
 /* INFORM */
-.inform-row{
-    justify-content: center;
-}
 .inform-body{
     margin: 50px 8px;
 }
@@ -420,6 +417,7 @@
 .inform-product-item__name{
     color: var(--text-color);
     font-size: 1.8rem;
+    line-height: 2.2rem;
     padding-top: 12px;
 }
 
@@ -713,6 +711,7 @@
 }
 .FAQ-list__item-heading{
     font-size: 1.6rem;
+    line-height: 2rem;
     color: var(--text-color);
     font-weight: bold;
     margin-bottom: 8px;

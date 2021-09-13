@@ -223,9 +223,6 @@
         width: 33%;
         padding: 0 4px;
     }
-    .inform-product-item__name{
-        font-size: 1.2rem;
-    }
     .inform-body__certified{
         flex-direction: column;
         padding: 0 50px;
@@ -258,7 +255,7 @@
         width: 90%;
     }
     .FAQ-list__item{
-        margin: 12px;
+        margin: 12px 0;
         padding-bottom: 8px;
     }
     .footer-list,
